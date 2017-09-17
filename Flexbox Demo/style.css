@@ -1,0 +1,67 @@
+body {
+  background-color: #FFCF9C;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.860em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #CA054D;
+}
+
+nav > * {
+  margin: 25px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #3B1C32;
+  margin: 0.313em;
+}
+
+.title h1 {
+  font-size: 1.563em;
+  margin-bottom: 5px;
+}
+
+.title h3 {
+  margin: 0 auto 25px;
+  font-size: 0.625em;
+}
+
+.title h3 a {
+  color: #3B1C32;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.gallery .media {
+  margin: 5px;
+  min-width: 0;
+}
+
+.gallery img {
+  max-width: 100%;
+  width: 450px;
+  max-height: 450px;
+}
+
+@@media (max-width 600px) {
+  title {
+    text-align: center;
+  }
+}
